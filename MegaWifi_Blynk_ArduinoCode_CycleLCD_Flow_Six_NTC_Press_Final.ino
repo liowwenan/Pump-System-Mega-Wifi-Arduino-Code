@@ -167,7 +167,7 @@ void loop() {
   Serial.print(",");
   Serial.println(l_min, 3); //Print out in PlX-Excel and Serial Monitor
 
-  delay(500);
+  delay(3000);
 
   u8g2.firstPage();
   do {   
